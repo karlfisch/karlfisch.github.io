@@ -1,55 +1,278 @@
-$ git clone https://github.com/baranoffalex3664/baranoffalex3666
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WATER POLO</title>
-<link rel="stylesheet" type="text/css" href="global.css">
+html {
+	 width:100%;
+}
 
-</head>
+body {
+	background-color:#8ab5cb;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#757575;
+	background-repeat:repeat-x;
+}
 
-<body>
-<div id="wrapper">
-	<div id="header">
-		<div id="logobox">
-			<h1>Water Polo</h1>
-			<h2>By: Alex Baranoff</h2>
-		</div>
-		<div id="headimg">&nbsp;</div>
-	</div>
-	<div id="topnavi">
-		<div class="spacing1">
-			<ul>
-				<li class="selected"><a href="#" title="Intro to Water Polo">Intro to Water Polo</a></li>
-				<li><a href="#">My expirience</a></li>
-				<li><a href="#">Colorado Water Polo</a></li>
-				<li><a href="#">Water Polo: Olimpics</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="bodybox">
-		<div id="subnavi">
-		</div>
-		<div id="content">
-			<h1>History/concept</h1>
-			<div class="imgbox">
-			</div>
-			<p><strong>Water polo is a competitive team sport played in the water between two teams. The game consists of four quarters, in which the two teams attempt to score goals by throwing the ball into their opponent's goal. The team with the most goals at the end of the game wins the match. Each team made up of six field players and one goalkeeper, with typically six additional players available for substitution throughout the match. Except for the goalkeeper, players participate in both offensive and defensive roles.</strong></p>
-			
-			<p>The game is thought to have originated in Scotland in the late 19th century as a sort of "water rugby". William Wilson is thought to have developed the game during a similar period. The game thus developed with the formation of the London Water Polo League and has since expanded, becoming widely popular in various places around the world, including Europe, the United States, Brazil, China, Canada and Australia.</p>
-		</div>
-	</div>
-    
-            <div class="spacing1">
-                <div id="My expirience">
-		          <div class="spacing1">
-                  <p>???????</p>
-            </div>
-            
-    
-    
-	<div id="footer">
-		<p>Alex Baranoff water polo</a></p>
-	</div>
-</div>
-</body>
-</html>
+#wrapper {
+	width:900px;
+	margin:0 auto;
+	text-align:left;
+}
+
+#header {
+	float:left;
+	width:900px;
+	height:162px;
+	background-color:#ffffff;
+}
+
+#logobox {
+	display:inline;
+	float:left;
+	width:220px;
+	height:150px;
+	margin:6px;
+	background-repeat:no-repeat;
+	text-align:right;
+}
+
+#logobox h1 {
+	padding:0px;
+	margin:0px;
+	margin-top:50px;
+	margin-right:20px;
+	font-size:26px;
+	color:#5baeae;
+}
+
+#logobox h2 {
+	padding:0px;
+	margin:0px;
+	margin-top:-4px;
+	margin-right:20px;
+	font-size:14px;
+	color:#8d8d8d;
+}
+
+#headimg {
+	display:inline;
+	float:left;
+	width:662px;
+	height:150px;
+	margin:6px;
+	margin-left:0px;
+	background-image:url('img/header_image.jpg');
+	background-repeat:no-repeat;
+}
+
+#topnavi {
+	display:inline;
+	float:left;
+	width:900px;
+	height:34px;
+	background-image:url('img/bg_topnavi.jpg');
+	background-repeat:no-repeat;
+}
+
+#topnavi ul {
+	display:inline;
+	list-style-type:none;
+	padding:0px;
+	margin:6px;
+	margin-top:0px;
+}
+
+#topnavi ul li {
+	float:left;
+	height:28px;
+	background-repeat:no-repeat;
+	line-height:28px;
+}
+
+#topnavi ul li.selected {
+	float:left;
+	height:28px;
+	background-repeat:no-repeat;
+	line-height:28px;
+}
+
+#topnavi ul li a {
+	line-height:28px;
+	color:#8d8d8d;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Verdana, sans-serif;
+	text-decoration:none;
+	padding-left:28px;
+	padding-right:26px;
+}
+
+#topnavi ul li a:hover {
+	line-height:28px;
+	color:#8d8d8d;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Verdana, sans-serif;
+	text-decoration:underline;
+	padding-left:28px;
+	padding-right:26px;
+}
+
+#topnavi ul li.selected a {
+	line-height:28px;
+	color:#757575;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Verdana, sans-serif;
+	text-decoration:none;
+	padding-left:28px;
+	padding-right:26px;
+}
+
+#topnavi ul li.selected a:hover {
+	line-height:28px;
+	color:#757575;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Verdana, sans-serif;
+	text-decoration:underline;
+	padding-left:28px;
+	padding-right:26px;
+}
+
+#bodybox {
+	float:left;
+	width:900px;
+}
+
+#subnavi {
+	display:inline;
+	float:left;
+	width:220px;
+	margin-left:6px;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+
+#subnavi ul {
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+#subnavi ul li {
+	height:24px;
+	background-repeat:no-repeat;
+	line-height:24px;
+	margin-left:22px;
+	width:181px;
+}
+
+#subnavi ul li a {
+	font-family:Verdana, sans-serif;
+	font-size:22px;
+	color:#8d8d8d;
+	text-decoration:none;
+	padding-left:10px;
+}
+
+#subnavi ul li a:hover {
+	font-family:Verdana, sans-serif;
+	font-size:22px;
+	color:#8d8d8d;
+	text-decoration:underline;
+	padding-left:10px;
+}
+
+#subnavi ul li a.selected {
+	font-family:Verdana, sans-serif;
+	font-size:22px;
+	color:#5baeae;
+	text-decoration:none;
+	padding-left:10px;
+}
+
+#subnavi ul li a.selected:hover {
+	font-family:Verdana, sans-serif;
+	font-size:11px;
+	color:#5baeae;
+	text-decoration:underline;
+	padding-left:10px;
+}
+
+#content {
+	display:inline;
+	float:left;
+	width:608px;
+	margin-right:36px;
+	margin-left:30px;
+	margin-top:20px;
+	padding-bottom:10px;
+}
+
+#content h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	color:#5baeae;
+}
+
+#content p {
+	line-height:16px;
+}
+
+#footer {
+	display:inline;
+	float:left;
+	width:900px;
+	height:41px;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+#footer p {
+	margin:6px;
+	padding:0px;
+	line-height:28px;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#aaaaaa;
+}
+
+#footer a {
+	font-size:10px;
+	color:#aaaaaa;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	font-size:10px;
+	color:#aaaaaa;
+	text-decoration:none;
+}
+
+div.imgbox {
+	float:right;
+	width:160px;
+	height:250px;
+	text-align:center;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+div.imgbox img {
+	border:1px solid #bbbbbb;
+}
+
+div.imgbox p {
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	font-size:10px;
+	color:#aaaaaa;
+}
+
+div.tabs {
+	margin-left:18px;
+	margin-right:18px;
+}
